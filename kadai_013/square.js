@@ -1,6 +1,6 @@
 const square = (number) => {
-  // 引数numberを２乗して、その値を出力
-  console.log(number ** 2);
+  // 与えられた引数numberを2倍にし、その値を戻り値として返す関数を定義する
+  return number ** 2;
 }
-
-square(10);
+// 関数の戻り値を出力する
+console.log(square(10));
